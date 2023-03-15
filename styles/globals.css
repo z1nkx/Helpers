@@ -24,15 +24,18 @@
 /* --- Don't need to modify below here --- */
 
 /* Default design values of the entire document */
-
 body {
-  background: var(--background-color);
-  font-family: var(--font);
-  color: var(--text-color);
-
+  background-image: url('/DappHELPERS.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: "Monoid", monospace;
+  color: var(--white);
   display: flex;
   margin: 0;
   text-align: center;
+  color: #fffeff;
 }
 
 /* Box sizing rules */
